@@ -20,6 +20,6 @@
 * http://localhost:8080/SpringMvcUsingJdbcTemplate/
 
 > **###4. Addtional Information**
-#### Advantages of JDBC
+#### Advantages of using JDBC
 
-#### Disadvantages of JDBC
+#### Disadvantages of using JDBC
