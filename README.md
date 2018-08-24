@@ -1,7 +1,7 @@
 # SpringMvcUsingJdbcMysql
 
 * Spring + JDBC Template + Mysql DB + Java Configuration + MVC + Maven , Example
-* JDBC Template Template example for Spring 4 MVC + JSP View with pure Java Configuration (no XML), using Maven build tool.
+* JDBC Template example for Spring 4 MVC + JSP View with pure Java Configuration (no XML), using Maven build tool.
 * Spring4 + MVC, Integration without using the web.xml and Spring_Servlet.xml file. 
 * By using WebMvcConfigurerAdapter class and WebApplicationInitializer interface to replace above files.
 * Ref: https://www.codejava.net/frameworks/spring/spring-mvc-with-jdbctemplate-example
