@@ -19,7 +19,7 @@
 > **###3.  Access** 
 * http://localhost:8080/SpringMvcUsingJdbcTemplate/
 
-> **###4. Important points to keep in mind**
+> **###4. Important points to keep in mind**{+,-: only color differences}
 ```diff
 + JDBC throws only few exceptions {SQLException, SQLWarning, DataTruncation, BatchUpdateException}
 - JDBC throws only general type of exceptions, it is difficult to find the actual reason behind the exception, sometime.
@@ -45,7 +45,7 @@
 - If using JDBC template: no need to do all the above mentioned work explicitely
 + JDBC Templates
 - * JdbcTemplate[Classis one]
-+ * NamedparameterJdbcTemplate{"values(:name, :password)" in SQL query}
+- * NamedparameterJdbcTemplate{"values(:name, :password)" in SQL query}
 - * SimpleJdbcTemplate[suitable with variable parameter and generic]
 + Need to inject DataSource into JdbcTemplate(dataSource)
 - RowMapper Interface and mapRow() method main when using JDBCTemplate
